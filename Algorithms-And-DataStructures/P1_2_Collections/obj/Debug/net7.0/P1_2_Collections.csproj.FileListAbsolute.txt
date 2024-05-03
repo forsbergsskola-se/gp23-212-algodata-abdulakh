@@ -1,0 +1,14 @@
+C:\Users\Kal-E\OneDrive\Skrivbord\CSharp\212-Collections\Algorithms-And-DataStructures\P1_2_Collections\bin\Debug\net7.0\P1_2_Collections.exe
+C:\Users\Kal-E\OneDrive\Skrivbord\CSharp\212-Collections\Algorithms-And-DataStructures\P1_2_Collections\bin\Debug\net7.0\P1_2_Collections.deps.json
+C:\Users\Kal-E\OneDrive\Skrivbord\CSharp\212-Collections\Algorithms-And-DataStructures\P1_2_Collections\bin\Debug\net7.0\P1_2_Collections.runtimeconfig.json
+C:\Users\Kal-E\OneDrive\Skrivbord\CSharp\212-Collections\Algorithms-And-DataStructures\P1_2_Collections\bin\Debug\net7.0\P1_2_Collections.dll
+C:\Users\Kal-E\OneDrive\Skrivbord\CSharp\212-Collections\Algorithms-And-DataStructures\P1_2_Collections\bin\Debug\net7.0\P1_2_Collections.pdb
+C:\Users\Kal-E\OneDrive\Skrivbord\CSharp\212-Collections\Algorithms-And-DataStructures\P1_2_Collections\obj\Debug\net7.0\P1_2_Collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kal-E\OneDrive\Skrivbord\CSharp\212-Collections\Algorithms-And-DataStructures\P1_2_Collections\obj\Debug\net7.0\P1_2_Collections.AssemblyInfoInputs.cache
+C:\Users\Kal-E\OneDrive\Skrivbord\CSharp\212-Collections\Algorithms-And-DataStructures\P1_2_Collections\obj\Debug\net7.0\P1_2_Collections.AssemblyInfo.cs
+C:\Users\Kal-E\OneDrive\Skrivbord\CSharp\212-Collections\Algorithms-And-DataStructures\P1_2_Collections\obj\Debug\net7.0\P1_2_Collections.csproj.CoreCompileInputs.cache
+C:\Users\Kal-E\OneDrive\Skrivbord\CSharp\212-Collections\Algorithms-And-DataStructures\P1_2_Collections\obj\Debug\net7.0\P1_2_Collections.dll
+C:\Users\Kal-E\OneDrive\Skrivbord\CSharp\212-Collections\Algorithms-And-DataStructures\P1_2_Collections\obj\Debug\net7.0\refint\P1_2_Collections.dll
+C:\Users\Kal-E\OneDrive\Skrivbord\CSharp\212-Collections\Algorithms-And-DataStructures\P1_2_Collections\obj\Debug\net7.0\P1_2_Collections.pdb
+C:\Users\Kal-E\OneDrive\Skrivbord\CSharp\212-Collections\Algorithms-And-DataStructures\P1_2_Collections\obj\Debug\net7.0\P1_2_Collections.genruntimeconfig.cache
+C:\Users\Kal-E\OneDrive\Skrivbord\CSharp\212-Collections\Algorithms-And-DataStructures\P1_2_Collections\obj\Debug\net7.0\ref\P1_2_Collections.dll
