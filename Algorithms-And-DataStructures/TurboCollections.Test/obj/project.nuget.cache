@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HpkcZ0shOV2fkeXAakeOCOwpOD3Tn0X3tnq+F918IQiT86/weEdya79sVfYwHCq2EZgxQYa+aH/0cFYxk9MedA==",
+  "dgSpecHash": "0E1LshqwU7o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections.Test\\TurboCollections.Test.csproj",
+  "projectFilePath": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections.Test\\TurboCollections.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kal-E\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Kal-E\\.nuget\\packages\\microsoft.codecoverage\\17.7.1\\microsoft.codecoverage.17.7.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QMmCwD8yvheFF21G0/4Win2hr1PzlvmXyBZ5zDkeW9wdU1jcL9jo7N4AZdPyzE/RXDV7YIlVJi/KYugDln5rHw==",
+  "dgSpecHash": "lbD2WGm1wkI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\HelloWorld\\HelloWorld.csproj",
+  "projectFilePath": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\HelloWorld\\HelloWorld.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kal-E\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Kal-E\\.nuget\\packages\\microsoft.codecoverage\\17.7.1\\microsoft.codecoverage.17.7.1.nupkg.sha512",

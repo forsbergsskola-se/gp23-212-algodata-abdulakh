@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\HelloWorld\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\HelloWorld\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\HelloWorld\\HelloWorld.csproj",
+        "projectPath": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\HelloWorld\\HelloWorld.csproj",
         "packagesPath": "C:\\Users\\Kal-E\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\HelloWorld\\obj\\",
+        "outputPath": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections.Test\\TurboCollections.Test.csproj": {
-                "projectPath": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections.Test\\TurboCollections.Test.csproj"
+              "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections.Test\\TurboCollections.Test.csproj": {
+                "projectPath": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections.Test\\TurboCollections.Test.csproj"
               },
-              "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections\\TurboCollections.csproj": {
-                "projectPath": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections\\TurboCollections.csproj"
+              "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections\\TurboCollections.csproj": {
+                "projectPath": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections\\TurboCollections.csproj"
               }
             }
           }
@@ -71,18 +72,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections.Test\\TurboCollections.Test.csproj": {
+    "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections.Test\\TurboCollections.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections.Test\\TurboCollections.Test.csproj",
+        "projectUniqueName": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections.Test\\TurboCollections.Test.csproj",
         "projectName": "TurboCollections.Test",
-        "projectPath": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections.Test\\TurboCollections.Test.csproj",
+        "projectPath": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections.Test\\TurboCollections.Test.csproj",
         "packagesPath": "C:\\Users\\Kal-E\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections.Test\\obj\\",
+        "outputPath": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,14 +98,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections\\TurboCollections.csproj": {
-                "projectPath": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections\\TurboCollections.csproj"
+              "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections\\TurboCollections.csproj": {
+                "projectPath": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections\\TurboCollections.csproj"
               }
             }
           }
@@ -161,18 +163,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections\\TurboCollections.csproj": {
+    "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections\\TurboCollections.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections\\TurboCollections.csproj",
+        "projectUniqueName": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections\\TurboCollections.csproj",
         "projectName": "TurboCollections",
-        "projectPath": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections\\TurboCollections.csproj",
+        "projectPath": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections\\TurboCollections.csproj",
         "packagesPath": "C:\\Users\\Kal-E\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\TurboCollections\\obj\\",
+        "outputPath": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -187,6 +189,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -225,7 +228,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\P1_2_Collections\\P1_2_Collections.csproj",
+      "projectUniqueName": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\P1_2_Collections\\P1_2_Collections.csproj",
       "projectName": "P1_2_Collections",
-      "projectPath": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\P1_2_Collections\\P1_2_Collections.csproj",
+      "projectPath": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\P1_2_Collections\\P1_2_Collections.csproj",
       "packagesPath": "C:\\Users\\Kal-E\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kal-E\\OneDrive\\Skrivbord\\CSharp\\212-Collections\\Algorithms-And-DataStructures\\P1_2_Collections\\obj\\",
+      "outputPath": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\P1_2_Collections\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -71,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
