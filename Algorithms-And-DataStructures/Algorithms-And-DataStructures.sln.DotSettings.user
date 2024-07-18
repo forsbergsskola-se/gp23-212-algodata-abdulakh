@@ -3,5 +3,9 @@
   &lt;Or&gt;&#xD;
     &lt;ProjectFile&gt;D2F0837F-B1D3-4217-8CDD-4364E92DA660/f:MathsTests.cs&lt;/ProjectFile&gt;&#xD;
     &lt;ProjectFile&gt;D2F0837F-B1D3-4217-8CDD-4364E92DA660/f:TurboLinkedStackTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D2F0837F-B1D3-4217-8CDD-4364E92DA660/f:BubbleSortTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D2F0837F-B1D3-4217-8CDD-4364E92DA660/f:LinearSearchTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D2F0837F-B1D3-4217-8CDD-4364E92DA660/f:SelectionSortTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;D2F0837F-B1D3-4217-8CDD-4364E92DA660/f:TurboBinarySearchTest.cs&lt;/ProjectFile&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
