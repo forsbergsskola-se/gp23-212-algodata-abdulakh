@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameStateHistory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d994af150e6c3ca47a071eeeaf0c9400edaa7b98")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46346d6c18879004efa4c268567885cd7ba46945")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameStateHistory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameStateHistory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

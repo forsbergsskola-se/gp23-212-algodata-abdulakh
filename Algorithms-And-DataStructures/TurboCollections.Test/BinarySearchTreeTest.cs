@@ -1,49 +1,121 @@
-﻿namespace TurboCollections.Test;
+﻿using NUnit.Framework;
 
-[TestFixture]
-public class BinarySearchTreeTest
+namespace TurboCollections.Tests
 {
-    private TurboBinaryTree<int> tree;
-
-    [SetUp]
-    public void Setup()
+    [TestFixture]
+    public class BinarySearchTreeTests
     {
-        tree = new TurboBinaryTree<int>(10);
-    }
-    
-    [Test]
-    public void GetValueTest()
-    {
-        tree.SetValue(0, 10);
+        private BinarySearchTree _bst;
 
-        int value = tree.GetValue(0);
-        
-        Assert.That(value, Is.EqualTo(10));
-    }
+        [SetUp]
+        public void Setup()
+        {
+            _bst = new BinarySearchTree();
+        }
 
-    [Test]
-    public void SetValueTest()
-    {
-        tree.SetValue(1, 20);
+        [Test]
+        public void Insert_RootNode_ShouldSetRoot()
+        {
+            int value = 10;
+            _bst.Insert(value);
 
-        int value = tree.GetValue(1);
-        
-        Assert.That(value, Is.EqualTo(20));
-    }
+            Assert.IsNotNull(_bst.Root);
+            Assert.AreEqual(value, _bst.Root.Data);
+        }
 
-    [Test]
-    public void GetLeftChildTest()
-    {
-        int leftChild = tree.GetLeftChild(0);
-        
-        Assert.That(1, Is.EqualTo(leftChild));
-    }
+        [Test]
+        public void Insert_LeftChild_ShouldSetLeftChild()
+        {
+            int rootValue = 10;
+            int leftChildValue = 5;
+            _bst.Insert(rootValue);
+            _bst.Insert(leftChildValue);
 
-    [Test]
-    public void GetRightChildTest()
-    {
-        int rightChild = tree.GetRightChild(0);
-        
-        Assert.That(2, Is.EqualTo(rightChild));
+            Assert.IsNotNull(_bst.Root.Left);
+            Assert.AreEqual(leftChildValue, _bst.Root.Left.Data);
+        }
+
+        [Test]
+        public void Insert_RightChild_ShouldSetRightChild()
+        {
+            int rootValue = 10;
+            int rightChildValue = 15;
+            _bst.Insert(rootValue);
+            _bst.Insert(rightChildValue);
+
+            Assert.IsNotNull(_bst.Root.Right);
+            Assert.AreEqual(rightChildValue, _bst.Root.Right.Data);
+        }
+
+        [Test]
+        public void Search_NodeExists_ShouldReturnNode()
+        {
+            int value = 10;
+            _bst.Insert(value);
+
+            Node result = _bst.Search(_bst.Root, value);
+
+            Assert.IsNotNull(result);
+            Assert.AreEqual(value, result.Data);
+        }
+
+        [Test]
+        public void Search_NodeDoesNotExist_ShouldReturnNull()
+        {
+            int value = 10;
+            _bst.Insert(value);
+
+            Node result = _bst.Search(_bst.Root, 20);
+
+            Assert.IsNull(result);
+        }
+
+        [Test]
+        public void Delete_NodeWithNoChildren_ShouldRemoveNode()
+        {
+            _bst.Insert(10);
+            _bst.Insert(5);
+            _bst.Insert(15);
+
+            _bst.Delete(5);
+
+            Assert.IsNull(_bst.Search(_bst.Root, 5));
+            Assert.IsNotNull(_bst.Search(_bst.Root, 10));
+            Assert.IsNotNull(_bst.Search(_bst.Root, 15));
+        }
+
+        [Test]
+        public void Delete_NodeWithOneChild_ShouldReplaceNodeWithChild()
+        {
+            _bst.Insert(10);
+            _bst.Insert(5);
+            _bst.Insert(15);
+            _bst.Insert(3);
+
+            _bst.Delete(5);
+
+            Assert.IsNull(_bst.Search(_bst.Root, 5));
+            Assert.IsNotNull(_bst.Search(_bst.Root, 3));
+            Assert.IsNotNull(_bst.Search(_bst.Root, 10));
+            Assert.IsNotNull(_bst.Search(_bst.Root, 15));
+        }
+
+        [Test]
+        public void Delete_NodeWithTwoChildren_ShouldReplaceNodeWithInOrderPredecessor()
+        {
+            _bst.Insert(10);
+            _bst.Insert(5);
+            _bst.Insert(15);
+            _bst.Insert(3);
+            _bst.Insert(7);
+
+            _bst.Delete(5);
+
+            Assert.IsNull(_bst.Search(_bst.Root, 5));
+            Assert.IsNotNull(_bst.Search(_bst.Root, 3));
+            Assert.IsNotNull(_bst.Search(_bst.Root, 7));
+            Assert.IsNotNull(_bst.Search(_bst.Root, 10));
+            Assert.IsNotNull(_bst.Search(_bst.Root, 15));
+        }
     }
 }

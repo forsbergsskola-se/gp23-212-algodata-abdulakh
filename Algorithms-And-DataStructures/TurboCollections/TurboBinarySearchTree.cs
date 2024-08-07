@@ -1,6 +1,4 @@
-﻿using Microsoft.VisualBasic.FileIO;
-
-namespace TurboCollections
+﻿namespace TurboCollections
 {
     public class Node
     {
@@ -20,41 +18,111 @@ namespace TurboCollections
     {
         public Node Root;
 
-        public BinarySearchTree()
+        public void Insert(int data)
         {
-            Root = null;
-        }
-
-        public Node Search(Node root, int data)
-        {
-            if (root == null)
+            if (Root == null)
             {
-                return null;
+                Root = new Node(data);
+                return;
             }
 
-            if (root.Data == data)
+            Node current = Root;
+            Node parent = null;
+
+            while (current != null)
             {
-                return root;
+                parent = current;
+                if (data < current.Data)
+                {
+                    current = current.Left;
+                }
+                else
+                {
+                    current = current.Right;
+                }
+            }
+
+            if (data < parent.Data)
+            {
+                parent.Left = new Node(data);
             }
             else
             {
-                Node current = root;
+                parent.Right = new Node(data);
+            }
+        }
 
-                while (current !=null)
+        public Node Search(Node root, int value)
+        {
+            Node currentNode = root;
+
+            while (currentNode != null)
+            {
+                if (currentNode.Data == value)
                 {
-                    if (data > current.Data)
-                    {
-                        
-                    }
+                    return currentNode;
+                }
+                if (value > currentNode.Data)
+                {
+                    currentNode = currentNode.Right;
+                }
+                else
+                {
+                    currentNode = currentNode.Left;
                 }
             }
-            
+
             return null;
         }
 
-        public Node Insert()
+        public void Delete(int data)
         {
-            return null;
+            Root = DeleteRec(Root, data);
+        }
+
+        private Node DeleteRec(Node root, int data)
+        {
+            if (root == null)
+            {
+                return root;
+            }
+
+            if (data < root.Data)
+            {
+                root.Left = DeleteRec(root.Left, data);
+            }
+            else if (data > root.Data)
+            {
+                root.Right = DeleteRec(root.Right, data);
+            }
+            else
+            {
+                if (root.Left == null)
+                {
+                    return root.Right;
+                }
+                else if (root.Right == null)
+                {
+                    return root.Left;
+                }
+
+                root.Data = MaxValue(root.Left);
+                root.Left = DeleteRec(root.Left, root.Data);
+            }
+
+            return root;
+        }
+
+        private int MaxValue(Node node)
+        {
+            int maxv = node.Data;
+            while (node.Right != null)
+            {
+                maxv = node.Right.Data;
+                node = node.Right;
+            }
+
+            return maxv;
         }
     }
 }
