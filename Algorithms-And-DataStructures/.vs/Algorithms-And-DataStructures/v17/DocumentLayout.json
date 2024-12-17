@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F0837F-B1D3-4217-8CDD-4364E92DA660}|TurboCollections.Test\\TurboCollections.Test.csproj|c:\\projects\\gp23-212-algodata-abdulakh\\algorithms-and-datastructures\\turbocollections.test\\turbolinkedstacktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F0837F-B1D3-4217-8CDD-4364E92DA660}|TurboCollections.Test\\TurboCollections.Test.csproj|solutionrelative:turbocollections.test\\turbolinkedstacktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2F0837F-B1D3-4217-8CDD-4364E92DA660}|TurboCollections.Test\\TurboCollections.Test.csproj|c:\\projects\\gp23-212-algodata-abdulakh\\algorithms-and-datastructures\\turbocollections.test\\mathstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2F0837F-B1D3-4217-8CDD-4364E92DA660}|TurboCollections.Test\\TurboCollections.Test.csproj|solutionrelative:turbocollections.test\\mathstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B922A6-4AC2-4F66-A5F8-EB5A026C8884}|P1_3_Iterator\\P1_3_Iterator.csproj|c:\\projects\\gp23-212-algodata-abdulakh\\algorithms-and-datastructures\\p1_3_iterator\\p1_3_iterator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1B922A6-4AC2-4F66-A5F8-EB5A026C8884}|P1_3_Iterator\\P1_3_Iterator.csproj|solutionrelative:p1_3_iterator\\p1_3_iterator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TurboLinkedStackTests.cs",
+              "DocumentMoniker": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections.Test\\TurboLinkedStackTests.cs",
+              "RelativeDocumentMoniker": "TurboCollections.Test\\TurboLinkedStackTests.cs",
+              "ToolTip": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections.Test\\TurboLinkedStackTests.cs",
+              "RelativeToolTip": "TurboCollections.Test\\TurboLinkedStackTests.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T12:40:42.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MathsTests.cs",
+              "DocumentMoniker": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections.Test\\MathsTests.cs",
+              "RelativeDocumentMoniker": "TurboCollections.Test\\MathsTests.cs",
+              "ToolTip": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\TurboCollections.Test\\MathsTests.cs",
+              "RelativeToolTip": "TurboCollections.Test\\MathsTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T12:40:32.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "P1_3_Iterator",
+              "DocumentMoniker": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\P1_3_Iterator\\P1_3_Iterator.csproj",
+              "RelativeDocumentMoniker": "P1_3_Iterator\\P1_3_Iterator.csproj",
+              "ToolTip": "C:\\Projects\\gp23-212-algodata-abdulakh\\Algorithms-And-DataStructures\\P1_3_Iterator\\P1_3_Iterator.csproj",
+              "RelativeToolTip": "P1_3_Iterator\\P1_3_Iterator.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-11T12:40:22.26Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
